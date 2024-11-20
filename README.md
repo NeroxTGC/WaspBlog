@@ -18,5 +18,11 @@ Don't forget the `main.wasp` route.
 
 Find in `@app/src/TooGraded`.
 
+it uses: `@heroicons/react` & `react-intersection-observer` packages
+
+- `npm install @heroicons/react`
+
+- `npm install react-intersection-observer`
+
 The `DarkModeSwitcher` is also updated.
 
