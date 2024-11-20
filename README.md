@@ -6,15 +6,17 @@ And a Tailwind LandingPage from [https://toograded.com](https://toograded.com/)
 
 ## Blog (`/blog`)
 
-Upload new articles to `@app/src/articles`
+Upload new articles to `@app/src/articles`.
 
-And update `@app/src/blog/ArticlePreview.tsx`
+And update `@app/src/blog/ArticlePreview.tsx`.
 
-Don't forget the `main.wasp` route
+Don't forget the `main.wasp` route.
+
 ---
+
 ## Landing Page (`/toograded`)
 
-Find in `@app/src/TooGraded`
+Find in `@app/src/TooGraded`.
 
 The `DarkModeSwitcher` is also updated.
 
