@@ -26,3 +26,15 @@ it uses: `@heroicons/react` & `react-intersection-observer` packages
 
 The `DarkModeSwitcher` is also updated.
 
+---
+
+### Sitemap.xml.
+
+Yes, I added a sitemap. Please, I take care of you, take care of Google Crawlers ;)
+
+Is `@app/public/sitemap.xml`.
+
+Just follow a similar structure for new pages.
+
+
+
