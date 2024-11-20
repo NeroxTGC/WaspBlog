@@ -356,3 +356,7 @@ page DPEPPage {
   component: import { DPEPPage } from "@src/articles/DPEP/Page"
 }
 
+route TooGradedRoute { path: "/toograded", to: TooGradedPage }
+page TooGradedPage {
+  component: import { TooGradedPage } from "@src/toograded/TooGradedPage"
+}

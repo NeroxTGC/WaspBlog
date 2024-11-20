@@ -16,7 +16,10 @@ export default function App() {
   const { data: user } = useAuth();
 
   const shouldDisplayAppNavBar = useMemo(() => {
-    return location.pathname !== '/' && location.pathname !== '/login' && location.pathname !== '/signup';
+    return location.pathname !== '/' && 
+           location.pathname !== '/login' && 
+           location.pathname !== '/signup' &&
+           location.pathname !== '/toograded';
   }, [location]);
 
   const isAdminDashboard = useMemo(() => {
@@ -51,7 +54,7 @@ export default function App() {
         ) : (
           <>
             {shouldDisplayAppNavBar && <AppNavBar />}
-            <div className='mx-auto max-w-7xl sm:px-6 lg:px-8'>
+            <div className='mx-auto w-full'>
               <Outlet />
             </div>
           </>
